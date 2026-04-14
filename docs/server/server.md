@@ -137,6 +137,9 @@ Success response:
 - get All users
 
 ```
+Method: GET
+URL: {{base_url}}/api/cart/products
+
 Returns all products currently present in the authenticated user's cart.
 
 Use this request to fetch the cart product list for the active session. The request is sent to `GET {{base_url}}/api/cart/products` and relies on the session cookie (`connect.sid`) being available.
