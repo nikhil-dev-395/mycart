@@ -1,5 +1,7 @@
 # Backend (Server) Documentation
 
+
+
 ## Overview
 
 This document describes the backend (server-side) implementation of the **Student Management System**.
@@ -12,6 +14,7 @@ Cookies are managed internally by `express-session`; **cookie-parser is not used
 
 ## Technology Stack
 
+***note: please check package.json if package conflict occ  ur***
 - **Node.js** – JavaScript runtime
 - **Express.js (v5)** – Web framework
 - **MongoDB** – Database
